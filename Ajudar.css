@@ -1,0 +1,121 @@
+html {
+    background-color: #F8FBFB;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.cabecalho-div {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+
+.frase {
+    display: flex;
+    padding: 25px;
+    font-size: 150%;
+    font-weight: 500;
+    position: relative;
+    bottom: 190px;
+}
+
+.coluna {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    width: max-content;
+    max-height: max-content;
+    border: solid 1.8px;
+    border-color: #FB7B05;
+    margin: 5px;
+    padding: 12px;
+    border-radius: 35px;
+    margin-left: 120px;
+    position: relative;
+    left: 170px;
+    bottom: 60px;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.op {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FFFFFF;
+    width: 325px;
+    height: 57.82px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 120px 0px rgba(58, 86, 78, 0.15);
+    border: solid 1.8px;
+    border-color: #FB7B05;
+}
+
+.op2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FFFFFF;
+    width: 325px;
+    height: 57.82px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 120px 0px rgba(58, 86, 78, 0.15);
+    border: solid 1.8px;
+    border-color: #FB7B05;
+}
+
+.qnt {
+    font-weight: bold;
+    font-size: 170%;
+    color: #FB7B05;
+}
+
+.qnt2 {
+    font-weight: bold;
+    font-size: 170%;
+    color: #000000;
+}
+
+.item {
+    font-size: 150%;
+    font-weight: 400;
+
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 4px 120px rgba(58, 86, 78, 0.10));
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 96%;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    height: 4.625rem;
+    position: fixed;
+    bottom: 0;
+}
