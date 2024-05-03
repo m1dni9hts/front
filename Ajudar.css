@@ -11,11 +11,17 @@ body {
     margin-bottom: 90px;
 }
 
-h1 {
-    font-size: 24px;
-    padding: 10px;
+main {
+    font-family: "Outfit", sans-serif;
 }
 
+h1 {
+    font-size: 24px;
+}
+
+.flecha {
+    padding: 10px;
+}
 .cabecalho-div {
     display: flex;
     padding-bottom: 10px;
@@ -56,15 +62,17 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     padding: 5%;
+    position: relative;
+    bottom: 50px;
 }
 
 .op {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    /* justify-content: center; */
+    /* gap: 30px; */
     background-color: #ECEFC6;
     width: 325px;
     height: 57.82px;
@@ -76,25 +84,79 @@ h1 {
 .op2 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
+    /* justify-content: center; */
+    /* gap: 30px; */
     background-color: #FFFFFF;
     width: 325px;
     height: 57.82px;
     border-radius: 20px;
     box-shadow: 0px 4px 120px 0px rgba(58, 86, 78, 0.15);
+    
 }
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.agendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    width: 325px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFC600;
+    color: #FFFFFF;
+    border: 0 none;
+}
+
+.ou {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   color: #A39797;
+}
+
+.dinheiro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    width: 325px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #FFC600;
+    border-color: #FFC600
+}
+
 
 .qnt {
     font-weight: bold;
     font-size: 170%;
     color: #FB7B05;
+    margin: 25px;
 }
 
 .qnt2 {
     font-weight: bold;
     font-size: 170%;
     color: #000000;
+    margin: 25px;
 }
 
 .item {

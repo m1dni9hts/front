@@ -1,0 +1,125 @@
+html {
+    background-color: #F8FBFB;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Outfit", sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    padding: 20px;
+    font-weight: 550;
+    margin-bottom: 60px;
+}
+
+.flecha {
+    padding: 10px;
+}
+.cabecalho-div {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+
+.frase {
+    display: flex;
+    padding: 25px;
+    font-size: 150%;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.doacao-de {
+    display: flex;
+    font-weight: 500;
+    font-size: 130%;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.de {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    /* padding: 5%; */
+    position: relative;
+    bottom: 50px;
+}
+
+.desc {
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.simbol {
+    margin: 20px;
+}
+
+.op {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #FFFFFF;
+    width: 325px;
+    height: 57.82px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 120px 0px rgba(58, 86, 78, 0.15);
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.realizar {
+    padding: 5px;
+    border-radius: 15px;
+    width: 325px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFC600;
+    color: #FFFFFF;
+    border: 0 none;
+}
+
+a {
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 4px 120px rgba(58, 86, 78, 0.10));
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 96%;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    height: 4.625rem;
+    position: fixed;
+    bottom: 0;
+}
