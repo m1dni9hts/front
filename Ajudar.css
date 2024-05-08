@@ -68,7 +68,7 @@ h1 {
     bottom: 50px;
 }
 
-.op {
+.selecionado {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -81,7 +81,7 @@ h1 {
     border: solid 1.8px;
     border-color: #FB7B05;
 }
-.op2 {
+.op {
     display: flex;
     align-items: center;
     /* justify-content: center; */

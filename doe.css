@@ -31,7 +31,7 @@ h2 {
     font-size: 150%;
     font-weight: 500;
     position: relative;
-    bottom: 20px;
+    top: 10px;
     margin-bottom: 20px;
 }
 
@@ -87,6 +87,8 @@ h2 {
 }
 
 .botao {
+    /* position: relative;
+    bottom: 100px; */
     display: flex;
     align-items: center;
     justify-content: center;

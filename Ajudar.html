@@ -25,7 +25,7 @@
     </header>
     <main>
         <div class="opcoes">
-            <div onclick="selecionar(this)" class="op">
+            <div class="selecionado">
                 <span class="qnt2">
                     20x
                 </span>
@@ -36,7 +36,7 @@
                     <img src="img/Vector.svg" alt="" srcset="">
                 </span> -->
             </div>
-            <div onclick="selecionar(this)" class="op2">
+            <div class="op">
                 <span class="qnt2">
                     10x
                 </span>
@@ -44,15 +44,15 @@
                     1Kg de Arroz Branco
                 </span>
             </div>
-            <div onclick="selecionar(this)" class="op2">
-                <span class="qnt2"">
+            <div class="op">
+                <span class="qnt2">
                     13x
                 </span>
                 <span class="item">
                     Arroz branco
                 </span>
             </div>
-            <div onclick="selecionar(this)" class="op2">
+            <div class="op">
                 <span class="qnt2">
                     8x
                 </span>
@@ -96,13 +96,6 @@
             </a>
         </div>
     </footer>
-    <script>
-        
-function selecionar(elemento) {
-    document.querySelector('.op').className = 'op2';
-    elemento.className = 'op';
-}
-
-    </script>
+    <script src="Ajudar.js"></script>
 </body>
 </html>
