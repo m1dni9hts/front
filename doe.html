@@ -25,6 +25,7 @@
         </span>
     </header>
     <main>
+        <input id="valor_doacao" type="text" placeholder="R$ 0,00" />
         <div class="de-div">
             <span class="doacao-de"> Doação de </span>
             <div class="de">
@@ -35,7 +36,7 @@
         </div>
         <h2>Opções de pagamento</h2>
         <div class="opcoes">
-            <div class="op">
+            <div class="selecionado">
                 <img class="simbol" src="img/download__4_-removebg-preview 1.svg" srcset="">
                 <span class="desc">
                     Pix
@@ -48,12 +49,13 @@
                </span>  -->
             </div>
         </div>
+        <div class="QRCode" >
+            <img src="" alt="" srcset="">
+        </div>
         <div class="botao">
-            <a href="gerar.html">
-                <button class="realizar">
-                    Gerar QRCode
-                </button>
-            </a>
+            <button  id="gerar_qrcode" class="realizar">
+                Gerar QRCode
+            </button>
         </div>
     </main>
     <footer>
@@ -72,6 +74,6 @@
             </a>
         </div>
     </footer>
-    
+    <script src="doe.js"></script>
 </body>
 </html>
